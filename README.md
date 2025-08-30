@@ -12,7 +12,7 @@ Loan Status Breakdown: Good loans (Fully Paid, Current) vs. Bad loans (Charged O
 Interest Rate and Debt-to-Income Ratio: Average interest rates and debt-to-income ratios.
 Time-Series Analysis: Monthly trends for loan applications, funded amounts, and repayments.
 Geographic Breakdown: Total funded amounts by state.
-Loan Purpose and Home Ownership: Funded amount breakdown by loan purpose and home ownership.
+Loan Purpose : Funded amount breakdown by loan purpose.
 
 Dataset Columns
 The dataset contains the following key columns:
@@ -22,7 +22,6 @@ application_type: Type of loan application (individual or joint).
 emp_length: Number of years the borrower has been employed.
 emp_title: Job title of the borrower.
 grade: Loan grade indicating creditworthiness.
-home_ownership: Type of home ownership (rent, own, mortgage).
 issue_date: Date when the loan was issued.
 last_credit_pull_date: Date when the borrower's credit was last pulled.
 last_payment_date: Date when the last payment was made.
@@ -53,7 +52,7 @@ Total Funded Amount by State: A bar chart showing funded amounts by state.
 
 Loan Purpose Breakdown: Shows the amount funded based on loan purpose.
 
-Home Ownership Breakdown: Treemap showing funded amounts by home ownership type.
+
 
 Technologies Used
 Python: Programming language used for data analysis.
